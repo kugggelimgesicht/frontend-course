@@ -1,0 +1,586 @@
+* {
+    box-sizing: border-box;
+    outline: 0 !important;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #333333;
+}
+
+::-webkit-scrollbar-thumb {
+    color: #cccccc;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+html {
+    font-family: 'Open-sans', sans-serif;
+}
+
+header {
+    background-color: black;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+p {
+    opacity: 65%;
+    margin: 10px 0;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.logo {
+    margin-left: 10%;
+}
+
+header .logo img {
+    width: 70px;
+}
+
+header .logo {
+    width: 60%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.menu div {
+    align-items: flex-end;
+}
+
+.menu div a {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: right;
+    text-decoration: none;
+}
+
+.intro {
+    display: flex;
+    background-image: url(city1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 640px;
+}
+
+.intro-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-left p {
+    width: 450px;
+}
+
+.intro h1 {
+    font-size: 36px;
+    white-space: pre;
+}
+
+.intro-left div {
+    margin-bottom: 25px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 360px;
+    margin-top: 140px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+div .try {
+    text-align: center;
+    vertical-align: middle;
+    padding: 25px;
+    border-radius: 10px 10px 0 0;
+    font-weight: bold;
+    background-color: #f5f5f5;
+}
+
+div .enter {
+    padding: 20px;
+}
+
+input {
+    padding: 20px 0 15px 25px;
+}
+
+.submit button {
+    width: 360px;
+    background-color: #ff9b51;
+    padding: 16px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 0 0 10px 10px;
+}
+
+.form input {
+    border-width: 0 0 2px 0;
+    width: 90%;
+    opacity: 70%;
+}
+
+.intro-left {
+    color: rgb(255, 255, 255);
+    width: 60%;
+    margin-top: 80px;
+    margin-left: 150px;
+}
+
+.logo-intro {
+    width: 200px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    height: 105px;
+    border-bottom: 2px solid #cccccc;
+}
+
+.social-left {
+    width: 35%;
+    font-size: small;
+    margin-left: 10%;
+}
+
+.social-left p {
+    width: 80%;
+}
+
+.social-right {
+    display: flex;
+    width: 65%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.social-right div {
+    margin-right: 10px;
+}
+
+.tabs, .standart, .price {
+    display: flex;
+    background-color: #f5f5f5;
+}
+
+.tabs {
+    height: 550px;
+    justify-content: center;
+}
+
+.tabs-left {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabs-left div {
+    height: 20%;
+    margin: 2px;
+    width: 25%;
+    transition: 0.5s;
+    border-radius: 3px;
+    background-color: #333333;
+    color: white;
+}
+
+.tabs-left div p {
+    opacity: 1;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 40%;
+    font-weight: bold;
+}
+
+.tabs-left div:hover {
+    opacity: 50%;
+    width: 26%;
+    height: 21%;
+    transition: 0.5s;
+}
+
+.tabs-left div:active {
+    background-color: #ff9b51;
+    opacity: 1;
+    transition: 0.1s;
+}
+
+.tabs-mid {
+    width: 40%;
+}
+
+.tabs-mid div {
+    display: flex;
+    flex-direction: column;
+}
+
+.tabs-mid .text {
+    height: 50%;
+    margin-top: 15%;
+}
+
+.download button {
+    background-color: #ff9b51;
+    height: 30%;
+    padding: 15px;
+    min-width: 120px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 20%;
+}
+
+.tabs-right {
+    width: 25%;
+    margin: auto;
+}
+
+.sublist, .customer {
+    display: flex;
+    background-color: white;
+    align-items: center;
+}
+
+.sublist {
+    height: 600px;
+}
+
+.sublist-left {
+    width: 75%;
+    padding: 30px;
+    margin-top: 3%;
+}
+
+.sublist-right div {
+    margin-bottom: 15px;
+}
+
+.sublist p, .standart-left p {
+    width: 70%;
+}
+
+.sublist-right {
+    margin-top: 1%;
+}
+
+.sublist-left img, .standart-right img {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .7);
+}
+
+.cloud::before {
+    content: url(cloud.png);
+    margin-right: 20px;
+}
+
+div .cloud {
+    display: flex;
+    flex-direction: row;
+}
+
+.sublist-right h4 {
+    vertical-align: top;
+}
+
+.standart-left {
+    display: flex;
+    width: 70%;
+    
+   margin: 7%;
+}
+
+
+.standart-right {
+    width: 20%;
+    align-items: center;
+}
+
+.aw-top {
+    margin: 5% auto;
+}
+
+.aw-bot {
+    justify-content: space-around;
+    padding-bottom: 5%;
+}
+
+.aw-bot div {
+    width: 30%;
+}
+
+.thoughtful::before {
+    content: url(thoughtful.png);
+}
+
+.well::before {
+    content: url(well.png);
+}
+
+.easy::before {
+    content: url(easy.png);
+}
+
+.aw-bot h4 {
+    margin: 20px;
+}
+
+.awesome, .price, .customer, .contact {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div .packages, div .orange, div .goods {
+    display: flex;
+    flex-direction: row;
+}
+
+.price {
+    height: 750px;
+}
+
+.price-top {
+    border-bottom: 0;
+    height: 35%;
+    margin: 5% auto;
+}
+
+.aw-bot, .cust-bot {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.price-bot {
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.price-bot div {
+    color: white;
+    min-width: 300px;
+    width: 20%;
+}
+
+div .packages {
+    display: flex;
+    align-items: flex-end;
+}
+
+.packages div {
+    background-color: #333333;
+}
+
+.packages p:not(.money) {
+    font-style: oblique;
+}
+
+.money {
+    font-size: 70px;
+    font-style: bold;
+    opacity: 1;
+}
+
+.goods div {
+    background-color: white;
+    color: black;
+}
+
+.goods div p {
+    padding: 20px;
+    border-bottom: #cccccc 1px solid;
+    display: flex;
+    font-size: 12px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.price-bot .orange {
+    background-color: #ff9b51;
+    justify-content: center;
+    padding: 5px;
+    margin: 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.orange {
+    padding: 1px;
+    width: 60px;
+    margin: 20px auto;
+    background-color: #ff9b51;
+}
+
+.sublist .orange, .standart .orange {
+    margin: 15px 0;
+}
+
+.white {
+    height: 2px;
+    width: 60px;
+    background-color: white;
+}
+
+.stylish .white {
+    margin: 20px auto;
+}
+
+div .separator {
+    background-color: #cccccc;
+    padding: 1px;
+    margin-left: 0;
+}
+
+.packages h3 {
+    margin: 0;
+    padding: 10px;
+}
+
+.cust-top {
+    margin-bottom: 20px;
+}
+
+.customer {
+    padding: 60px;
+}
+
+.cust-bot .comment {
+    background-image: url(talk.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+}
+
+.cust-bot .comment p {
+    font-size: 13px;
+    font-style: italic;
+    text-align: left;
+    margin-left: 23%;
+    width: 55%;
+    padding-bottom: 15px;
+}
+
+.person {
+    display: flex;
+    flex-direction: row;
+    padding-left: 23%;
+    margin-top: 25px;
+    font-style: normal;
+}
+
+.person p {
+    font-size: 13px;
+    text-align: left;
+}
+
+.person::before {
+    content: url(avatar.png);
+    padding-right: 10px;
+}
+
+.stylish {
+    background-image: url(state.png);
+    background-color: #202020;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.stylish div {
+    margin: 20px auto;
+}
+
+.download-transp button {
+    border: 2px solid white;
+    background: none;
+    height: 45px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    width: 125px;
+}
+
+.cont-top {
+    height: 35%;
+    margin-top: 50px;
+}
+
+.cont-bot {
+    display: flex;
+}
+
+.cont-bot div {
+    margin-right: 10px;
+}
+
+.cont-bot form div p {
+    margin: 5px;
+}
+
+.form-left input, textarea {
+    border: none;
+    width: 600px;
+    border-bottom: 1px lightgray solid;
+}
+
+textarea {
+    height: 165px;
+    opacity: 0.5;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+.send button {
+    height: 40px;
+    font-size: 12px;
+  
+    margin-bottom:5%;
+    margin-top: 1%;
+    width: 120px;
+    padding-top: 12px;
+    font-weight: bold;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-size: xx-small;
+}
+
+.download-transp button:hover {
+    background-color: rgba(61, 60, 60, 0.7)
+}
+
+.download-transp button:active {
+    background-color: rgba(204, 125, 21, 0.8)
+}
