@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>калькулятор</title>
+    <link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<style>
+    * {
+        font-family: 'Play', sans-serif;
+    }
+
+    button:focus {
+        outline: 0 !important;
+    }
+
+    button {
+        width: 50px;
+        height: 50px;
+        font-size: 25px;
+        margin: 2px;
+        border-radius: 20px;
+    }
+
+    .display {
+        width: 200px;
+        height: 50px;
+        margin: 2px;
+        padding: 10px;
+        border-radius: 5px;
+        border: black;
+        background-color: rgba(4, 87, 4, 0.527);
+        color: white;
+        text-align: right;
+        border: solid 3px rgb(82, 81, 81);
+        overflow: hidden;
+
+    }
+
+    #output-value {
+        margin: 5px;
+        font-size: 26px;
+    }
+
+    .sign {
+        color: cornflowerblue;
+    }
+
+    #equal {
+        background-color: cornflowerblue;
+        color: cornsilk;
+    }
+
+    i {
+        color: cornflowerblue;
+        margin-top: 5px;
+    }
+
+    #clear {
+        background-color: crimson;
+        color: cornsilk;
+    }
+
+    .calculator {
+        background-color: grey;
+        width: 230px;
+        border-radius: 10px;
+        border: 3px rgb(82, 82, 82) solid;
+    }
+</style>
+
+<body>
+    <div class="calculator">
+        <div class="display">
+            <div id="history-value"></div>
+            <div id="output-value"></div>
+        </div>
+        <table id="table">
+            <tr>
+                <td><button id="clear"><b>C</b></button></td>
+                <td><button id="backspace"><i class="material-icons">
+                            backspace
+                        </i></button></td>
+                <td><button class="calc sign" value="/">/</button></td>
+                <td><button class="calc sign" value="*">x</button></td>
+            </tr>
+            <tr>
+                <td><button class="calc" value="7">7</button></td>
+                <td><button class="calc" value="8">8</button></td>
+                <td><button class="calc" value="9">9</button></td>
+                <td><button class="calc sign" value="+">+</button></td>
+            </tr>
+            <tr>
+                <td><button class="calc" value="4">4</button></td>
+                <td><button class="calc" value="5">5</button></td>
+                <td><button class="calc" value="6">6</button></td>
+                <td><button class="calc sign" value="-">-</button></td>
+            </tr>
+
+            <tr>
+                <td><button class="calc" value="1">1</button></td>
+                <td><button class="calc" value="2">2</button></td>
+                <td><button class="calc" value="3">3</button></td>
+                <td><button id="equal" value="=">=</button></td>
+            </tr>
+
+
+            <tr>
+                <td></td>
+                <td><button class="calc" value="0">0</button></td>
+                <td></td>
+            </tr>
+
+        </table>
+    </div>
+    <script src="task4.js"></script>
+</body>
+
+</html>
