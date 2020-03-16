@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>бухгалтерия</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+</head>
+<style>
+    button:focus {
+        outline: 0;
+    }
+
+    * {
+        box-sizing: border-box;
+        font-family: 'Rubik', sans-serif;
+
+    }
+
+    h1,
+    h3 {
+        color: teal;
+    }
+
+    input {
+        width: 250px;
+        margin-right: 0;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 1px rgba(7, 126, 126, 0.541) solid;
+        background-color: inherit;
+    }
+
+    #create {
+        background-color: #02D802;
+        color: white;
+        border-radius: 5px;
+        width: 50px;
+    }
+
+    .sort {
+        background-color: rgb(2, 177, 177);
+        color: white;
+        border-radius: 5px;
+        height: 25px;
+    }
+
+    td {
+        border: 2px rgb(13, 170, 170) solid;
+        border-radius: 3px;
+        background-color: rgba(173, 247, 247, 0.521);
+    }
+
+    thead {
+        font-weight: bold;
+    }
+
+    body {
+        margin-left: 25px;
+        background-color: rgba(93, 240, 240, 0.418)
+    }
+
+    body section {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    div.form {
+        width: 30%;
+
+
+    }
+
+    div.list {
+        justify-content: flex-end;
+        flex-direction: column;
+        width: 70%;
+
+    }
+
+    td.button {
+        border: none;
+        background-color: inherit;
+    }
+
+    .delete {
+        background-color: #FF0303;
+        color: white;
+        border-radius: 5px;
+
+    }
+</style>
+
+<body>
+    <h1>Редактирование списка сотрудников</h1>
+    <section>
+        <div class="form">
+            <form id="form">
+                <h3>Добавление сотрудника</h3>
+                <input placeholder="ФИО" id="name"></input></p>
+                <input placeholder="должность" id="position"></input></p>
+                <input placeholder="дата начала работы" type="date" id="date"></input></p>
+                <input placeholder="зарплата" id="salary" type="number"></input></p>
+                <button id="create"><i class="material-icons">
+                        person_add
+                    </i></button>
+            </form>
+        </div>
+
+        <div class="list">
+            <div>
+                <h3>Список сотрудников</h3>
+            </div>
+            <div><button class="sort" id="date-sort">по сроку работы</button>
+                <button class="sort" id="salary-sort">по зарплате</button></div>
+
+            <div>
+                <table id="table">
+
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <script src="task5.js"></script>
+</body>
+
+</html>
