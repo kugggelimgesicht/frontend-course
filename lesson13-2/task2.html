@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+</head>
+<style>
+    .custom-menu {
+        border: 1px solid gray;
+        box-shadow: 1px 1px 10px gray;
+        padding: 10px 0;
+        width: 200px;
+        position: absolute;
+
+        display: none;
+    }
+
+    .item {
+        cursor: pointer;
+        padding: 8px 15px;
+    }
+
+    .item:hover {
+        background-color: rgb(224, 220, 220);
+    }
+
+    .divider {
+        margin: 10px 0;
+        border-bottom: 1px solid rgb(224, 220, 220);
+
+    }
+</style>
+
+<body>
+    <div class="custom-menu" id="custom-menu">
+        <div class="item" value="1">Item1</div>
+        <div class="item" value="2">Item2</div>
+        <div class="item" value="3">Item3</div>
+        <div class="divider"></div>
+        <div class="item" value="4">Item4</div>
+
+    </div>
+    <script src="task2.js"></script>
+</body>
+
+</html>
