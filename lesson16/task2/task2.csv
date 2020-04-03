@@ -1,0 +1,6 @@
+name, age, position, salary, boss, 
+Mike Portnoy, 52, CEO, 3000, -
+Harry Sparkles, 39, CMO, 2700, Mike Portnoy
+Piter Harrison, 42, CFO, 2700, Mike Portnoy
+Theodor Schneider, 38, CTO, 2500, Mike Portnoy
+Richard Muller, 34, Senior Engineer, 2200, Theodor Schneider
