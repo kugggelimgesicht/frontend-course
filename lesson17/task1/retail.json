@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Aldi",
+        "year": 2005,
+        "description": "Qualitaet zum Aldi Preis",
+        "stores": "aldi.json"
+    },
+    {
+        "id": 2,
+        "name": "Edeka",
+        "year": 1995,
+        "description": "Wir lieben Lebensmittel",
+        "stores": "edeka.json"
+    },
+    {
+        "id": 3,
+        "name": "Rewe",
+        "year": 2000,
+        "description": "Dein markt",
+        "stores": "rewe.json"
+    }
+]

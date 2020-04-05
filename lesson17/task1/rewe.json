@@ -1,0 +1,20 @@
+[
+    {
+        "address":"Berlin, Auerbachstrasse 12",
+        "buyers":190,
+        "square":350,
+        "opened":2008
+    },
+    {
+        "address":"Berlin, Bayernring 15",
+        "buyers":120,
+        "square":240,
+        "opened":2012
+    },
+    {
+        "address":"Berlin, Wasserwerkstrasse 22",
+        "buyers":128,
+        "square":250,
+        "opened":2004
+    }
+]
