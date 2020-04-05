@@ -1,0 +1,20 @@
+[
+    {
+        "address":"Berlin, Friedrichstrasse 142",
+        "buyers":200,
+        "square":300,
+        "opened":2007
+    },
+    {
+        "address":"Berlin, Grenzallee 4",
+        "buyers":100,
+        "square":200,
+        "opened":2000
+    },
+    {
+        "address":"Berlin, Berliner Strasse 24",
+        "buyers":150,
+        "square":250,
+        "opened":1999
+    }
+]

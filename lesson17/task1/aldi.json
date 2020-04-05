@@ -1,0 +1,20 @@
+[
+    {
+        "address":"Berlin, Kanalstrasse 8",
+        "buyers":140,
+        "square":300,
+        "opened":2010
+    },
+    {
+        "address":"Berlin, Oranienstrasse 140",
+        "buyers":120,
+        "square":240,
+        "opened":2009
+    },
+    {
+        "address":"Berlin, Heinrich-Heine-Platz 8",
+        "buyers":100,
+        "square":200,
+        "opened":2011
+    }
+]
