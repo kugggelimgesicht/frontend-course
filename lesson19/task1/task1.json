@@ -1,0 +1,36 @@
+[{
+    "name":"Ibanez S series double neck",
+    "description":"The 540STN is a double neck S series solid body electric guitar model introduced by Ibanez in 1990. It was produced in Japan by FujiGen as part of the Roadstar Pro series. It is also referred to as the 540S-TN. The TN suffix refers to the Twin Neck.",
+    "image":"img/dblneck.jpg",
+    "amount":5
+},
+{
+    "name":"Ibanez Jem 7 EAFX",
+    "description":"The JEM7EAFX is a JEM series solid body electric guitar model introduced by Ibanez in 2009. It is a signature model of American guitarist Steve Vai. As of 2017, the JEM7EAFX is the only JEM model which has been offered with a hard-tail bridge.",
+    "image":"img/steve-vai-066.jpg",
+    "amount":10
+},
+{
+    "name":"Ibanez Jem7vwh Roxy",
+    "description":"The JEM7V, also known as the JEM7V WH (white), is a JEM series solid body electric guitar model introduced by Ibanez in 1993. It is a signature model of American guitarist Steve Vai. It was produced in Japan by FujiGen.",
+    "image":"img/steve-vai-049.jpg",
+    "amount":7
+},
+{
+    "name":"Ibanez UV Multicolor",
+    "description":"The UV77 is a seven-string solid body electric guitar model introduced by Ibanez in 1990. It is a signature model of American guitarist Steve Vai, and part of Vai's Universe series. The UV77 was available only in a swirled Multi Color finish.",
+    "image":"img/steve-vai-006.jpg",
+    "amount":21
+},
+{
+    "name":"Blueburst Artcore Hollowbody",
+    "description":"The Artcore's combination of quality workmanship and affordability has created legions of fans from diverse genres as blues, country, rock and jazz. Artcore is highly respected for its tone, sustain and the way they hold their tuning.",
+    "image":"img/steve-vai-523.jpg",
+    "amount":3
+},
+{
+    "name":"Ibanez Prestige S5470 Amber Finish",
+    "description":"The Ibanez S5470 Prestige outshreds any other metal guitar on the market, with 24 frets on a lightning-fast Prestige-finished 5-piece neck, ZR2 bridge with ZPS3 spring system for in-tune dive-bombing pyrotechnics, and an incredible variety of finely-honed tonal options.",
+    "image":"img/steve-vai-139.jpg",
+    "amount":15
+}]
