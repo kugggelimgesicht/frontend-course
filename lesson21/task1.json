@@ -1,0 +1,73 @@
+[{
+    "name": "Purple sunset",
+    "words": 100000,
+    "year": 1999,
+    "author": "Morse",
+    "language": "eng",
+    "publisher": "Eksmo"
+},
+{
+    "name": "Crime and punishment",
+    "words": 300000,
+    "year": 1999,
+    "author": "Dostoevsky",
+    "language": "ru",
+    "publisher": "AST"
+},
+{
+    "name": "Fathers and children",
+    "words": 200000,
+    "year": 1999,
+    "author": "Turgenev",
+    "language": "ru",
+    "publisher": "Eksmo"
+},
+{
+    "name": "100 years of solitude",
+    "words": 100000,
+    "year": 1999,
+    "author": "Marquez",
+    "language": "eng",
+    "publisher": "AST"
+},
+{
+    "name": "Die Welt als Wille und Vorstellung",
+    "words": 100000,
+    "year": 1999,
+    "author": "Schopenhauer",
+    "language": "de",
+    "publisher": "AST"
+},
+{
+    "name": "Kritik den reinen Vernunft",
+    "words": 100000,
+    "year": 1999,
+    "author": "Kant",
+    "language": "de",
+    "publisher": "AST"
+},
+{
+    "name": "Norwegian wood",
+    "words": 100000,
+    "year": 1999,
+    "author": "Murakami",
+    "language": "jp",
+    "publisher": "Eksmo"
+},
+{
+    "name": "Femeia Nisipurilor",
+    "words": 100000,
+    "year": 1999,
+    "author": "Kobo Abe",
+    "language": "jp",
+    "publisher": "Bisby"
+},
+{
+    "name": "The Face of Another",
+    "words": 100000,
+    "year": 1999,
+    "author": "Kobo Abe",
+    "language": "jp",
+    "publisher": "Bisby"
+}
+]
